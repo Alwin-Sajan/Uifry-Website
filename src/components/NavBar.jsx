@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { logo_icon, star } from './../assets/index';
+import { logo_icon, star ,star2 ,logo_icon2} from './../assets/index';
 
 const NavBar = ({ darkMode, toggleDarkMode }) => {
   const [mode, setMode] = useState(() => {
@@ -19,12 +19,12 @@ const NavBar = ({ darkMode, toggleDarkMode }) => {
 
   return (
     <div className="relative ml-32 pl-2 mt-2 flex">
-      <img className="w-auto h-10 rotate-45 mt-24 -ml-24 absolute" src={star} alt="" />
+      <img className="w-auto h-10 rotate-45 mt-24 -ml-24 absolute" src={darkMode?star2:star} alt="" />
 
       <ul className="p-4 pl-2 flex font-clash-bold text-[20px] font-[700] leading-[26px] items-center gap-4">
         <li className="w-[117px]">
           <a href="">
-            <img className="w-[117px]" src={logo_icon} alt="hi" />
+            <img className="w-[117px]" src={darkMode? logo_icon2: logo_icon} alt="hi" />
           </a>
         </li>
         <li className={`inline-block font-[900] ${darkMode ? 'text-white' : 'text-[#FF5555]'}`}>
@@ -50,7 +50,7 @@ const NavBar = ({ darkMode, toggleDarkMode }) => {
       <button className={`ph-[150px] m-4 p-4 w-[176px] ml-[298px] rounded text-white ${darkMode?'bg-[#ff5555]':' bg-black'}`}>
         Download
       </button>
-      <img className="w-auto h-16 mt-4 ml-8 pt-4" src={star} alt="" />
+      <img className="w-auto h-16 mt-4 ml-8 pt-4" src={darkMode?star2:star} alt="" />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import logo_icon from './logo.png';
+import logo_icon2 from './logo_icon2.png';
 import frame1 from './frame1.png';
 import star from './Star.png';
 import arrow from './xmlns.svg';
@@ -20,4 +21,4 @@ import advertisement from './adver.png';
 import logo2 from './logo2.png';
 import star2 from './star2.png'
 
-export { logo_icon, frame1 ,star,star2 ,arrow , cPhoto,logo2, advertisement, banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse , frame2,frame5 , bulet ,gphoto, frame3 , frame4 ,card };
+export { logo_icon, frame1 ,star,star2 ,arrow ,logo_icon2, cPhoto,logo2, advertisement, banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse , frame2,frame5 , bulet ,gphoto, frame3 , frame4 ,card };
