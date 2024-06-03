@@ -1,0 +1,6 @@
+/* styles.css */
+@import './assets/font/fonts.css'; /* Adjust the path to where your fonts.css is located */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

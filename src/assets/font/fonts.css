@@ -1,0 +1,30 @@
+/* fonts.css */
+@font-face {
+    font-family: 'ClashDisplayBold';
+    src: url('./assets/font/ClashDisplayBold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ClashDisplayExtralight';
+    src: url('./assets/font/ClashDisplayExtralight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ClashDisplayLight';
+    src: url('./assets/font/ClashDisplayLight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ClashDisplayMedium';
+    src: url('./assets/font/ClashDisplayMedium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ClashDisplayRegular';
+    src: url('./assets/font/ClashDisplayRegular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ClashDisplaySemibold';
+    src: url('./assets/font/ClashDisplaySemibold.otf') format("opentype");
+}
