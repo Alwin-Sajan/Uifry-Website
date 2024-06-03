@@ -1,12 +1,12 @@
 import React from 'react'
 import { backE, cPhoto, ellipse, frame5, gphoto, star } from '../assets'
 
-const Testmonial = () => {
+const Testmonial = ({darkMode}) => {
     return (
         <div className='px-36 relative font-clash-bold'>
             {/* <img src={frame5} className='absolute -ml-40 -mt-8 -z-10' alt="" /> */}
             <h2 className='font-[600] text-center tracking-widest '>TESTIMONIAL</h2>
-            <h1 className='font-[900] -ml-1 mt-2 text-5xl text-center px-48'>WHAT OUR USERS SAY ABOUT US ?</h1>
+            <h1 className={`font-[900] -ml-1 mt-2 text-5xl text-center px-48 ${darkMode?'text-[#ff5555]':'text-black'}`}>WHAT OUR USERS SAY ABOUT US ?</h1>
             <div className='flex '>
 
                 <div className='w-[50%] relative'>

@@ -18,6 +18,6 @@ import gphoto from './grpPhoto.png';
 import cPhoto from './PhotoC.png';
 import advertisement from './adver.png';
 import logo2 from './logo2.png';
+import star2 from './star2.png'
 
-
-export { logo_icon, frame1 ,star ,arrow , cPhoto,logo2, advertisement, banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse , frame2,frame5 , bulet ,gphoto, frame3 , frame4 ,card };
+export { logo_icon, frame1 ,star,star2 ,arrow , cPhoto,logo2, advertisement, banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse , frame2,frame5 , bulet ,gphoto, frame3 , frame4 ,card };
