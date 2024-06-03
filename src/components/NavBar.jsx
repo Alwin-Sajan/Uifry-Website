@@ -12,11 +12,11 @@ const NavBar = () => {
             <img className='w-[117px]' src={logo_icon} alt="hi" />
           </a>
         </li>
-        <li className='inline-block text-[#FF5555]'>
+        <li className='inline-block font-[900] text-[#FF5555]'>
           <a href="">Home</a>
         </li>
         <li className='inline-block'>
-          <a href="">About Us</a>
+          <a href="#About">About Us</a>
         </li>
         <li className='inline-block'>
           <a href="">Pricing</a>
@@ -31,30 +31,6 @@ const NavBar = () => {
       </ul>
       <button className='ph-[150px] m-4 p-4 w-[176px] ml-[298px] rounded text-white bg-black '>Download</button>
       <img className=' w-auto h-16 mt-4 ml-8 pt-4' src={star} alt="" />
-
-
-
-
-
-      {/* <div class="font-clash-bold text-2xl
-       font-extrabold">
-  This text uses the Clash Display Bold font.
-</div>
-<div class="font-clash-extralight">
-  This text uses the Clash Display ExtraLight font.
-</div>
-<div class="font-clash-light">
-  This text uses the Clash Display Light font.
-</div>
-<div class="font-clash-medium">
-  This text uses the Clash Display Medium font.
-</div>
-<div class="font-clash-regular">
-  This text uses the Clash Display Regular font.
-</div>
-<div class="font-clash-semibold">
-  This text uses the Clash Display Semibold font.
-</div> */}
 
     </div>
   )

@@ -8,6 +8,16 @@ import phoneA from './phoneA.png';
 import phoneB from './phoneB.png';
 import phoneC from './phoneC.png';
 import ellipse from './Ellipse.png';
+import frame2 from './frame2.png';
+import bulet from './bollet.svg';
+import frame3 from './frame3.png';
+import frame4 from './frame4.png';
+import frame5 from './frame5.png';
+import card from './card.png';
+import gphoto from './grpPhoto.png';
+import cPhoto from './PhotoC.png';
+import advertisement from './adver.png';
+import logo2 from './logo2.png';
 
 
-export { logo_icon, frame1 ,star ,arrow , banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse };
+export { logo_icon, frame1 ,star ,arrow , cPhoto,logo2, advertisement, banner ,backE ,phoneA ,phoneB ,phoneC ,ellipse , frame2,frame5 , bulet ,gphoto, frame3 , frame4 ,card };
