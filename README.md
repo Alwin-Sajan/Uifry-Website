@@ -1,7 +1,7 @@
 # Uifry Website
 
 ### Live Website
-You can visit the live website at the following link: [Uifry](https://collage-website-nist.vercel.app/)
+You can visit the live website at the following link: [Uifry](https://uifry-coral.vercel.app/)
 
 ### Overview
 This website is built using the **React Js** library. For styling, **Tailwind CSS** has been utilized to ensure a modern and responsive design.
@@ -11,12 +11,12 @@ To run the project locally, follow these steps:
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/Alwin-Sajan/Collage-website-NIST
+    git clone https://github.com/Alwin-Sajan/Uifry-Website
     ```
    
 2. **Navigate to the Project Directory**
     ```sh
-    cd Collage-website-NIST
+    cd Uifry-Website
     ```
 
 3. **Install Dependencies**
