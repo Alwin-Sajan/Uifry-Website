@@ -32,7 +32,7 @@ const Advantages = ({ darkMode }) => {
 
                     <div className='w-[50%] max-md:-ml-[50%] max-md:w-[100%] lg:min-h-[100vh] relative lg:mb-16'>
                         <img src={darkMode ? star2 : star} className='absolute w-16 lg:ml-[560px] max-md:size-10 mt-8' alt="" />
-                        <motion.img initial={{ rotate: '15deg' }} whileHover={{ scale: 1.2, rotate: 15 }} whileTap={{ scale: 1.5 }} src={phoneB} className='rotate-[15deg] absolute max-md:ml-32 z-40 mt-4 ml-8' alt="" />
+                        <motion.img initial={{ rotate: '15deg' }}  src={phoneB} className='rotate-[15deg] absolute max-md:ml-32 z-40 mt-4 ml-8' alt="" />
                         <img src={ellipse} className='absolute z-20 mt-4 -ml-8 max-md:ml-16 ' alt="" />
                         <motion.img initial={{ rotate: 0, scale: 0.89 }}
                             animate={{ rotate: [0, 180], scale: [0.96, 1, 0.97] }}

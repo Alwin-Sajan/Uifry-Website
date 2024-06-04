@@ -14,21 +14,21 @@ const About = ({ darkMode }) => {
                         transition={{ duration: 4, repeat: Infinity, repeatType: "reverse" }} src={backE} className={`${darkMode ? 'hidden' : 'block'} max-md:hidden absolute -mt-32 z-10 max-md:-ml-16`} alt="" />
                     <img src={darkMode ? logo_icon2 : logo_icon} className='hidden w-40 mb-8 max-md:block' alt="" />
 
-                    <div className='lg:w-[55%] md:w-full'>
+                    <div className='lg:w-[55%] max-md:w-full max-md:pr-16 '>
                         
                             <h1 className={`${darkMode ? 'text-[#ff5555]' : 'text-black'} font-[900] relative z-50 text-5xl tracking-tighter leading-[60px] font-clash-bold mt-4`}>Make The Best Financial Descisions</h1>
-                            <p className=' opacity-50 font-clash-medium z-50 relative font-[500] mt-4 max-md:mr-8 text-lg'>Cum et convallis risus placerat aliquam, nunc.
+                            <p className=' opacity-50 font-clash-medium z-50 relative font-[500] mt-4 max-md:mr-16 text-lg max-md:text-sm'>Cum et convallis risus placerat aliquam, nunc.
                                 Scelerisque aliquet faucibus tincidunt eu adipiscing
                                 sociis arcu lorem porttitor.
                             </p>
                         
                         <div className='flex items-center max-md:mr-8  gap-8'>
                             <motion.button whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}
-                                className={`text-white ${darkMode ? 'bg-[#ff5555]' : ' bg-black'} z-50 cursor-pointer w-40 h-14 flex items-center justify-center rounded mt-4 p-2`}>Get Started {<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                className={`text-white ${darkMode ? 'bg-[#ff5555]' : ' bg-black'} z-50 cursor-pointer w-40 h-14 flex items-center max-md:text-xl justify-center rounded mt-4 p-2`}>Get Started {<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                                 </svg>}
                             </motion.button>
-                            <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.1 }} className='w-40 z-50 h-14 flex items-center cursor-pointer justify-center text-[20px] font-clash-medium tracking-tight gap-3 font-[500] mt-4'>{<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.1 }} className='w-40 z-50 h-14 flex items-center cursor-pointer justify-center max-md:text-xl text-[20px] font-clash-medium tracking-tight gap-3 font-[500] mt-4'>{<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
                             </svg>}Watch Video
