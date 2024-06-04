@@ -17,12 +17,12 @@ const About = ({ darkMode }) => {
                     <div className='lg:w-[55%] md:w-full'>
                         
                             <h1 className={`${darkMode ? 'text-[#ff5555]' : 'text-black'} font-[900] relative z-50 text-5xl tracking-tighter leading-[60px] font-clash-bold mt-4`}>Make The Best Financial Descisions</h1>
-                            <p className=' opacity-50 font-clash-medium z-50 relative font-[500] mt-4 text-lg'>Cum et convallis risus placerat aliquam, nunc.
+                            <p className=' opacity-50 font-clash-medium z-50 relative font-[500] mt-4 max-md:mr-8 text-lg'>Cum et convallis risus placerat aliquam, nunc.
                                 Scelerisque aliquet faucibus tincidunt eu adipiscing
                                 sociis arcu lorem porttitor.
                             </p>
                         
-                        <div className='flex items-center   gap-8'>
+                        <div className='flex items-center max-md:mr-8  gap-8'>
                             <motion.button whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}
                                 className={`text-white ${darkMode ? 'bg-[#ff5555]' : ' bg-black'} z-50 cursor-pointer w-40 h-14 flex items-center justify-center rounded mt-4 p-2`}>Get Started {<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
