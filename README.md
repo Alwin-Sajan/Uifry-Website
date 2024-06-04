@@ -11,12 +11,12 @@ To run the project locally, follow these steps:
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/Alwin-Sajan/Collage-website-NIST
+    git clone https://github.com/Alwin-Sajan/Uifry-Website
     ```
    
 2. **Navigate to the Project Directory**
     ```sh
-    cd Collage-website-NIST
+    cd Uifry-Website
     ```
 
 3. **Install Dependencies**
