@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { logo_icon, star, star2, logo_icon2 } from './../assets/index';
+import { motion } from 'framer-motion';
 
 const NavBar = ({ darkMode, toggleDarkMode }) => {
   const [mode, setMode] = useState(() => localStorage.getItem("theme") || "light");
@@ -54,14 +55,14 @@ const NavBar = ({ darkMode, toggleDarkMode }) => {
       </div>
 
       <button className="md:hidden ml-2" onClick={toggleMenu}>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
 
-      <button className={`ph-[150px] m-4 p-4 w-[176px] ml-[298px] rounded text-white ${darkMode ? 'bg-[#ff5555]' : 'bg-black'} hidden md:block`}>
+      <motion.button whileHover={{ scale: 1.2 }}whileTap={{ scale: 1.1 }} href='#downloads' trarget='' className={`ph-[150px] m-4 p-4 w-[176px] ml-[298px] rounded text-white ${darkMode ? 'bg-[#ff5555]' : 'bg-black'} hidden md:block`}>
         Download
-      </button>
+      </motion.button>
       <img className="w-auto h-16 mt-4 ml-8 pt-4 hidden md:block" src={darkMode ? star2 : star} alt="" />
     </div>
   );

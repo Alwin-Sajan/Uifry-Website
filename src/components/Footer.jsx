@@ -23,15 +23,14 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img src={call} alt="call icon" />
+
                         <p className="text-sm lg:text-base cursor-pointer  hover:text-[#FF5555]">
-                            help@frybix.com
+                        ✉️ help@frybix.com
                         </p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img src={message} alt="message icon" />
                         <p className="text-sm lg:text-base cursor-pointer  hover:text-[#FF5555]">
-                            +1 234 456 678 89
+                        📞+1 234 456 678 89
                         </p>
                     </div>
                 </div>

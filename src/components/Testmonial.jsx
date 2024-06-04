@@ -1,12 +1,16 @@
 import React from 'react'
 import { backE, cPhoto, ellipse, star2, gphoto, star } from '../assets'
+import Reveal from './Reveal'
 
 const Testmonial = ({darkMode}) => {
     return (
-        <div className='lg:px-36 relative font-clash-bold'>
+        <div className='lg:px-36 max-lg:mt-28 relative font-clash-bold'>
+            <Reveal>
             {/* <img src={frame5} className='absolute -ml-40 -mt-8 -z-10' alt="" /> */}
+            <Reveal>
             <h2 className='font-[600] text-center tracking-widest '>TESTIMONIAL</h2>
             <h1 className={`font-[900] -ml-1 mt-2 text-5xl text-center lg:px-48 ${darkMode?'text-[#ff5555]':'text-black'}`}>WHAT OUR USERS SAY ABOUT US ?</h1>
+            </Reveal>
             <div className='flex '>
 
                 <div className='lg:w-[50%] relative'>
@@ -27,6 +31,7 @@ const Testmonial = ({darkMode}) => {
                     <img src={darkMode ? star2 : star} className='w-12 mt-28 -ml-60' alt="" />
                 </div>
             </div>
+            </Reveal>
         </div>
     )
 }
