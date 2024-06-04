@@ -1,7 +1,7 @@
 import React from 'react';
-import { backE, card, ellipse, frame3, frame4, phoneA, phoneB, star } from './../assets/index'
+import { backE, card, ellipse, phoneA, phoneB, star ,star2 } from './../assets/index'
 
-const Advantages = () => {
+const Advantages = ({darkMode}) => {
     const bell = (
         <icon className='rounded-[100%] p-2 bg-[#ff5555] text-white mr-4'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
@@ -16,41 +16,41 @@ const Advantages = () => {
     )
     return (
         <div className='h-auto mb-28'>
-            <div className='flex px-32 relative z-20 pt-12 font-clash-bold'>
+            <div className='flex lg:px-32 max-md:px-8 relative z-20 pt-12 font-clash-bold'>
                 {/* <img src={frame3} className='absolute -ml-40 -z-10' alt="" /> */}
-                <div className='w-[50%] mt-48'>
-                    <h2 className='font-[600] tracking-widest text-[#FF5555]'>ADVANTAGE</h2>
-                    <h1 className='font-[900] -ml-1 text-5xl'>Why Choose Uifry?</h1>
+                <div className='w-[50%] mt-48 max-md:mb-16'>
+                    <h2 className='font-[600] max-md:w-[50%] tracking-widest text-[#FF5555]'>ADVANTAGE</h2>
+                    <h1 className='font-[900] max-md:w-[50%] -ml-1 text-5xl'>Why Choose Uifry?</h1>
 
-                    <h2 className='text-2xl font-[700] flex items-center mt-8' >{bell} Clever Notifications</h2>
+                    <h2 className='text-2xl font-[700] flex items-center mt-8 ' >{bell} Clever Notifications</h2>
 
-                    <p className='opacity-50 mt-4 font-[600]'>Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
+                    <p className='opacity-50 mt-4 font-[600] max-md:absolute max-md:pr-20 '>Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
                 </div>
 
-                <div className='w-[50%] relative'>
-                    <img src={star} className='absolute w-16 ml-[560px] mt-8' alt="" />
-                    <img src={phoneB} className='rotate-[15deg] absolute z-40 mt-4 ml-8' alt="" />
-                    <img src={ellipse} className='absolute z-20 mt-4 -ml-8 ' alt="" />
-                    <img src={backE} className='absolute z-10 mt-36 -ml-20' alt="" />
+                <div className='w-[50%] max-md:-ml-[50%] max-md:w-[100%] relative'>
+                    <img src={darkMode ? star2 : star} className='absolute w-16 lg:ml-[560px] max-md:size-10 mt-8' alt="" />
+                    <img src={phoneB} className='rotate-[15deg] absolute max-md:ml-32 z-40 mt-4 ml-8' alt="" />
+                    <img src={ellipse} className='absolute z-20 mt-4 -ml-8 max-md:ml-16 ' alt="" />
+                    <img src={backE} className='absolute z-10 mt-36 max-md:ml-28 -ml-20' alt="" />
 
                 </div>
 
             </div>
 
-            <div className='flex px-32 font-clash-bold relative mt-20'>
+            <div className='lg:flex max-md:grid max-md:col-span-1 max-md:mt-32 lg:px-32 max-md:px-8 font-clash-bold relative lg:mt-20'>
                 {/* <img src={frame4} className='absolute  -ml-40 -z-10' alt="" /> */}
-                <div className='w-[50%] relative'>
-                    <img src={star} className='absolute mt-8 w-10 rotate-45 ml-[444px]' alt="" />
-                    <img src={phoneA} className='rotate-[15deg] mt-16 z-30 absolute' alt="" />
-                    <img src={card} className='absolute z-50 mt-60 h-36 ml-36' alt="" />
-                    <img src={ellipse} className='absolute z-20 mt-8 -ml-20' alt="" />
-                    <img src={backE} className='absolute z-10 mt-32 size-[40vw]' alt="" />
-                    <img src={backE} className='absolute z-10 mt-32 size-[40vw]' alt="" />    
+                <div className='lg:w-[50%] max-md:w-full relative'>
+                    <img src={darkMode ? star2 : star} className='absolute mt-8 w-10 max-md:size-10 rotate-45 lg:ml-[444px]' alt="" />
+                    <img src={phoneA} className='rotate-[15deg] mt-16 z-30 absolute max-md:ml-4' alt="" />
+                    <img src={card} className='lg:absolute z-50 mt-60 h-36 lg:ml-36' alt="" />
+                    <img src={ellipse} className='absolute z-20 lg:mt-8 max-md:-mt-72 lg:-ml-20' alt="" />
+                    <img src={backE} className='absolute z-10 lg:mt-32 lg:size-[40vw] max-md:-mt-32' alt="" />
+                    <img src={backE} className='absolute z-10 lg:mt-32 lg:size-[40vw] max-md:-mt-32' alt="" />    
                 </div>
-                <div className='w-[50%] mt-56'>
+                <div className='lg:w-[50%] mt-56 max-md:relative'>
                     <h2 className='text-2xl font-[700] flex items-center mt-8' >{stat}Fully Customizable</h2>
                     <p className='opacity-50 mt-4 font-[600]'>Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
-                    <img src={star} className=' mt-40 w-12 ml-72' alt="" />                
+                    <img src={darkMode ? star2 : star} className=' mt-40 w-12 lg:ml-72' alt="" />                
                 </div>
             </div>
 

@@ -22,7 +22,7 @@ const App = () => {
   };
 
   return (
-    <div className={`${darkMode ? 'bg-black text-[white]' : 'bg-white text-black'} h-auto relative`}>
+    <div className={`${darkMode ? 'bg-black text-[white]' : 'bg-white text-black'} w-screen overflow-x-hidden h-auto relative`}>
       <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <About darkMode={darkMode} />
       <Features darkMode={darkMode} />
