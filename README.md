@@ -1,7 +1,7 @@
 # Uifry Website
 
 ### Live Website
-You can visit the live website at the following link: [Uifry](https://collage-website-nist.vercel.app/)
+You can visit the live website at the following link: [Uifry](https://uifry-coral.vercel.app/)
 
 ### Overview
 This website is built using the **React Js** library. For styling, **Tailwind CSS** has been utilized to ensure a modern and responsive design.
